@@ -12,6 +12,7 @@
   - Your DN42 IPv4 address
   - Your Dn42 IPv6 link-local address
   - If Multiprotocol BGP is required; default is Enabled
+  - If Extended next hop is required; default is Enabled
   - Your wireguard public key
   - The node ID you are trying to connect
   - Any additional information, special configuration, etc.
@@ -35,6 +36,7 @@
 | Clearnet IP address | `hosthatch-hkg35.node.koishi.eu.org` |
 | DN42 IPv4 address | `172.21.81.65` |
 | DN42 IPv6 address | `fd6e:2659:5811::1045:1001` |
+| DN42 IPv6 link-local address | `fe80::1045:1001` |
 | Wireguard public key | `aWKi/AUj605XoFZ/byMEQkI+5QwbxY+CbzM6/Sc/DXM=` |
 
 
@@ -45,10 +47,22 @@
 | Clearnet IP address | `virmach-nrt25.node.koishi.eu.org` |
 | DN42 IPv4 address | `172.21.81.66` |
 | DN42 IPv6 address | `fd6e:2659:5811::1045:1002` |
+| DN42 IPv6 link-local address | `fe80::1045:1002` |
 | Wireguard public key | `3etwl8AAbiKwI2k6KY6Q0iBC8qpJiT6n01NiuDldH00=` |
 
 #### NA
-Under construction
+
+| ID | 2001 |
+| -- | --|
+| Location | Fremont, CA, US |
+| Connectivity | IPv4 + IPv6, 10Gbps |
+| Clearnet IP address | `apernet-fmt11.node.koishi.eu.org` |
+| DN42 IPv4 address | `172.21.81.67` |
+| DN42 IPv6 address | `fd6e:2659:5811::1045:2001` |
+| DN42 IPv6 link-local address | `fe80::1045:2001` |
+| Wireguard public key | `Cwx8uK+NpQN6UjFudbaw1MFN5H9Dr5iPC63RlWEnuD0=` |
+
+
 #### EU
 Under construction
 
